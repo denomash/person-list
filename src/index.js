@@ -7,7 +7,7 @@ const Person = ({ img, name, job, children }) => {
     <article className='person'>
       <img
         src={`https://randomuser.me/api/portraits/thumb/men/${img}.jpg`}
-        alt=""
+        alt="person"
       />
       <h4>{name}</h4>
       <h4>{job}</h4>

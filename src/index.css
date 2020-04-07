@@ -21,3 +21,15 @@ body {
 .person:hover {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, .3);
 }
+
+.person img {
+  border-radius: 50%;
+  border: 0.1rem solid teal;
+}
+
+.person h4 {
+  text-transform: capitalize;
+  letter-spacing: 0.15rem;
+  margin: 0.5rem 0;
+  color: teal;
+}
